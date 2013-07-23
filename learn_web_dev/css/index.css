@@ -9,11 +9,11 @@ body {
 }
 
 h1 {
-	font-size: 42px;
+	font-size: 60px;
 }
 
 h2 {
-	font-size: 23px;
+	font-size: 25px;
 }
 
 p { 
@@ -43,7 +43,7 @@ img#book {
 }
 
 article {
-	padding-top: 290px;
+	padding-top: 280px;
 }
 
 section#topics {
@@ -58,12 +58,24 @@ section#topics ul li {
 	font-size: 18px;
 }
 
-section#packages {
-	margin-top: 60px;
-	padding: 10px;
+section.plans {
+	width: 300px;
+	float: left;
+	margin-top: 25px;
+	padding: 5px;
 	border: 2px solid gray;
 	border-radius: 10px;
 	background-color: white;
+	margin-bottom: 35px;
+}
+
+section.plans span {
+	margin: 1px auto 1px auto;
+	text-align: center;
+}
+
+section.plans button {
+	text-transform: uppercase;
 }
 
 
