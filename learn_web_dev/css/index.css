@@ -5,15 +5,22 @@ html {
 body {
 	font-family: Helvetica, Arial, sans-serif;
 	background-color: #AEB0A7;
-	padding: 2px 20px 20px 20px;
+	padding: 0px 20px 20px 20px;
 }
 
 h1 {
-	font-size: 60px;
+	font-size: 65px;
+	font-weight: bold;
 }
 
 h2 {
 	font-size: 25px;
+	font-weight: bold;
+}
+
+h4 {
+	font-size: 20px;
+	font-weight: bold;
 }
 
 p { 
@@ -23,7 +30,7 @@ p {
 h1#book_title {
 	text-transform: uppercase;
 	text-align: center;
-	margin-bottom: -18px;
+	margin-top: 40px;
 }
 
 h2#sub_title {
@@ -31,19 +38,22 @@ h2#sub_title {
 }
 
 section.pitch {
-	display: block;
-	margin: 50px 0px 15px 0px;
+	margin: 60px 0px 20px;
 }
 
 img#book {
 	height: 550px;
 	width: 410px;
 	float: left;
-	margin-right: 25px;
+	margin-right: 20px;
 }
 
-article {
-	padding-top: 280px;
+p.pitch {
+	margin-top: 10px;
+}
+
+article.pitch {
+	padding-top: 365px;
 }
 
 section#topics {
@@ -54,24 +64,32 @@ section#topics ul li {
 	float: left;
 	list-style: none;
 	padding: 3px;
-	margin-bottom: 20px;
+	margin: 20px, 20px;
 	font-size: 18px;
 }
 
 section.plans {
+	background-color: white;
 	width: 300px;
 	float: left;
-	margin-top: 25px;
+	margin: 25px 5px 30px 0px;
 	padding: 5px;
 	border: 2px solid gray;
-	border-radius: 10px;
-	background-color: white;
-	margin-bottom: 35px;
+	border-radius: 5px;
 }
 
 section.plans span {
 	margin: 1px auto 1px auto;
+	display: block;
 	text-align: center;
+	font-weight: bold;
+	margin-bottom: 15px;
+	font-size: 20px;
+}
+
+section.plans ul {
+	margin-left: 25px;
+	list-style: square;
 }
 
 section.plans button {

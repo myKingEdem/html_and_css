@@ -6,8 +6,9 @@
 	<meta name="description" content="Beginners to learning Ruby, Rails, and related technologies." />
 	<meta name="keywords" content="ruby on rails, ruby, web development, html, css, rspec, jquery, javascript"/>
 	<title>Learn Web Development</title>
-	<link rel="stylesheet" type="text/css" href="css/960_gs.css"/>
-	<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="css/960_gs.css" />
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
 </head>
 <body class="container_12"> 
 	<header>
@@ -16,12 +17,12 @@
 	</header>
 	<section class="pitch"><!-- description starts here -->
 	<img id="book" src="images/FSWD.jpg" alt="book cover" title="Learn Full-Stack Web Development">
-	<article>
+	<article class="pitch">
 		<h2>
 			Learn the skills you need to become a web developer.
 		</h2>
-		<p>
-			This book guides you through learning Ruby, Rails, HTML &amp; CSS, JavaScript, and RSpec, the technologies you need to know as a Ruby on Rails developer.
+		<p class="pitch">
+			This book guides you through learning Ruby, HTML &amp; CSS, jQuery, Sinatra, Rails, and RSpec, the technologies you need to know as a Ruby on Rails developer.
 		</p>
 	</article>
 	</section>
@@ -30,66 +31,90 @@
 		<ul>
 			<li>Ruby /</li>
 			<li>HTML &amp; CSS /</li>
-			<li>JavaScript /</li>
+			<li>jQuery /</li>
+			<li>Sinatra /</li>
 			<li>Rails /</li>
 			<li>RSpec /</li>
 			<li>Practical</li>
 		</ul>
- 		</section> <!-- end of topics -->
- 		<section class="plans" id="independent_learner">
- 			<span>
-			<h3>Independent Study Package</h3>
-		  </span>
+ 	</section> <!-- end of topics -->
+ 	<section class="plans" id="independent_learner">
+ 		<span>
+			Independent Study Package
+		</span>
 			<ul>
-				<li>Learn Web Development.</li>
-				<li>5 Coach Contacts.</li>
-			</ul>
+				<li>Learn Web Development.</li><br />
+			 	<li>3 Independent projects.</li>
+			 			Includes source code for:
+			 			<ul>
+			 				<li> 1 Ruby program </li>
+			 				<li> 1 Sinatra app </li>
+			 				<li> 1 Rails app </li>
+			 			</ul><br />
+				<li>10 Coach Contacts.</li>
+			</ul><br />
 			<button>$1000 Buy it</button>
 		</section><!-- end of independent plan -->
-		<section class="plans" id="tutor_plan">
-			<span>
-			<h3>Tutor Package</h3>
-			</span> 
+	<section class="plans" id="tutor_plan">
+		<span>
+			Tutor Package
+		</span> 
 			<ul>
-				<li>Learn Web Development.</li>
-				<li>16 Coach Contacts.</li>
+				<li>Learn Web Development.</li><br />
+				<li>3 Independent Projects.</li>
+			 			Includes source code for:
+			 			<ul>
+			 				<li> 1 Ruby program </li>
+			 				<li> 1 Sinatra app </li>
+			 				<li> 1 Rails app </li>
+			 			</ul><br />
+				<li>25 Coach Contacts.</li><br />
 				<li>
 				3 Sessions of Pair Programming.
-				<ul>
-					<li>50 minutes per session.</li>
-					<li>Within 3 months of buying.</li>
-				</ul>
-				</li>
-			</ul>
-			<button>$1000 Buy it</button>
-		</section><!-- end of tutor plan -->
-		<section class="plans" id="professor_plan"> <!-- packages start here -->
-			<span>
-				<h3>Coach Package</h3>
-				</span> 
-			<ul>
-				<li>Learn Web Development.</li>
-				<li>25 Coach Contacts.</li>
-				<li>
-				5 Sessions of Pair Programming.
 				<ul>
 					<li>50 minutes per session.</li>
 					<li>Within 6 months of buying.</li>
 				</ul>
 				</li>
-			</ul>
+			</ul><br />
 			<button>$1000 Buy it</button>
-		</section><!-- end of plans -->
-		
-	  <p>
-			Training programs such as General Assembly, gSchool, DevBootCamp and The Starter League that teach web development cost anywhere between $8,000 and $36,000. Not everyone can quit their jobs and pay lots of money to attend these programs. If you've ever wanted to learn web development, but don't have the time and resources to attend these programs, this book will guide you through learning everything you need to know to become a full-stack web developer. It uses rapid skill acquisition principles to help you acquire the skills necessary to become a proficient full-stack Ruby on Rails developer.
-		</p>
+	</section><!-- end of tutor plan -->
+	<section class="plans" id="professor_plan"> <!-- packages start here -->
+		<span>
+			Coach Package
+		</span> 
+			<ul>
+				<li>Learn Web Development.</li><br/>
+				<li>3 Independent Projects.</li>
+				Includes source code for:
+			 		<ul>
+			 			<li> 1 Ruby program </li>
+			 			<li> 1 Sinatra app </li>
+			 			<li> 1 Rails app </li>
+			 		</ul> <br />
+				<li>Unlimited Coach Contacts.</li><br />
+				<li>
+				5 Sessions of Pair Programming.
+				<ul>
+					<li>50 minutes per session. </li>
+					<li>Within 6 months of buying. </li>
+					<li> Priority appointments. </li>
+				</ul>
+				</li>
+			</ul><br />
+			<button>$1000 Buy it</button>
+	</section><!-- end of plans -->
+	<p>
+	Training programs such as General Assembly, gSchool, DevBootCamp and The Starter League that teach web development cost anywhere between $8,000 and $36,000. Not everyone can quit their job and pay lots of money to attend these programs. If you've ever wanted to learn web development, but don't have the time and resources to attend these programs, this book will guide you through learning everything you need to know to become a web developer. It uses a self-paced approach, effective teaching and learning methods, and the best resources available to guide you through learning web development.
+	</p>
  	<div id="faqs"> <!-- start of faqs -->
  	<h2>Questions?</h2>
-	 <h4>What is rapid skill acquisition?</h4>
-	 <h4>Who are you?</h4>
-	 <h4>What if I don't use my pair programming sessions?</h4>
-	 <h4>What if I hate the book?</h4>
+ 		<h4>Does this guide teach programming?</h4>
+	 	<h4>What is pair programming?</h4>
+	 	<h4>What if I'm not happy with the book?</h4>
  	</div> <!-- end of faqs -->
+	<footer>
+		2013 Raymond Cudjoe <a href="http://www.rkcudjoe.com", target="_blank" >www.rkcudjoe.com</a>
+	</footer>
 </body>
 </html>
