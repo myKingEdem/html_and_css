@@ -94,7 +94,7 @@ section.plan a {
 	border: 1px dotted LightGray;
 	width: 150px;
 	padding: 10px 10px 10px 10px;
-	background-color:PowderBlue;
+	background-color: PowderBlue;
 }
 
 section.plan a:hover {
@@ -103,7 +103,7 @@ section.plan a:hover {
 
 section.topic {
 	padding-top: 20px;
-	margin-bottom: 560px;
+	margin-bottom: 540px;
 }
 
 section.topic ul li {
